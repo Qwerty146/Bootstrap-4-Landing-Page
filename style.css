@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-size: cover;
+}
+
+.jumbotron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px !important;
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    font-size: 40px !important;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+button.btn-info {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.services {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid white;
+    color: white !important;
+    transition: 0.5s ease-in-out;
+}
+
+button.services:hover {
+    background-color: white;
+    color: black !important;
+}
