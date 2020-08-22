@@ -33,6 +33,10 @@ h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    color: white !important;
+}
+
 button.btn-info {
     padding: 10px;
     font-family: 'Roboto', sans-serif;
